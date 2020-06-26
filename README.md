@@ -1,5 +1,9 @@
 # Pirate Vs Spiders
 
+## About
+This is my first game, any feedback is appreciated.
+
+Pirates vs Spiders is a top down 3D game made in the godot game engine. Its a bullet-hellesque game that spawns waves of spiders to defeat. Survive as many waves as you can.
 
 ## Installation
 Currently this is for windows only.
