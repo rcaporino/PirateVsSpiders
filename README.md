@@ -1,32 +1,13 @@
-# TexturePacker Importer
-
-This is a plugin for [Godot Engine](https://godotengine.org) to import
-`TileSet`s and `AtlasTexture`s from the [TexturePacker](https://www.codeandweb.com/texturepacker)
-
-**Note: This is compatible only with Godot 3.0 or later.**
+# Pirate Vs Spiders
 
 
 ## Installation
+Currently this is for windows only.
+Simply download the zip from my itch.io page [here](https://oniro.itch.io/pirate-vs-spiders) and extract it anywhere you would like
 
-Simply download it from [Godot Asset Library](https://godotengine.org/asset-library/asset/169)
+## Credits
+Player was modeled by me following along with Imphenzia's video here
 
-Alternatively, download or clone this repository and copy the contents of the
-`addons` folder to your own project's `addons` folder.
+Spider was modeled by me.
 
-Important: Enable the plugin on the Project Settings.
-
-## Features
-
-* Import sprite sheets as AtlasTextures
-* Import sprite sheets as TileSets
-* Supports trimmed sprites (margin)
-* Supports MultiPack
-
-## Usage (once the plugin is enabled)
-
-1. Save your sprite sheets / tile maps in your project folder
-2. Watch Godot import it automatically.
-
-## License
-
-[MIT License](LICENSE). Copyright (c) 2018 Andreas Loew / CodeAndWeb GmbH
+Terrain textures are from here
