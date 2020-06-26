@@ -1,0 +1,133 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Menus/montserrat_84.tres" type="DynamicFont" id=1]
+[ext_resource path="res://Menus/montserrat_62.tres" type="DynamicFont" id=2]
+[ext_resource path="res://Menus/DeathScreen.gd" type="Script" id=3]
+[ext_resource path="res://Menus/Montserrat-ExtraBold.ttf" type="DynamicFontData" id=4]
+
+[sub_resource type="DynamicFont" id=1]
+size = 48
+font_data = ExtResource( 4 )
+
+[node name="DeathScreen" type="Control"]
+pause_mode = 2
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0, 0, 0, 0.364706 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+margin_left = 120.0
+margin_top = 80.0
+margin_right = 1480.0
+margin_bottom = 820.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CenterContainer" type="CenterContainer" parent="VBoxContainer"]
+margin_right = 1360.0
+margin_bottom = 545.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/CenterContainer"]
+margin_left = 444.0
+margin_right = 916.0
+margin_bottom = 545.0
+
+[node name="Label" type="Label" parent="VBoxContainer/CenterContainer/VBoxContainer"]
+margin_right = 472.0
+margin_bottom = 114.0
+custom_fonts/font = ExtResource( 1 )
+custom_colors/font_color_shadow = Color( 0.764706, 0.0862745, 0.0862745, 1 )
+custom_constants/shadow_offset_x = 0
+custom_constants/shadow_offset_y = 8
+text = "You Died!"
+valign = 1
+
+[node name="Label3" type="Label" parent="VBoxContainer/CenterContainer/VBoxContainer"]
+margin_top = 118.0
+margin_right = 472.0
+margin_bottom = 183.0
+text = "
+
+
+"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="WaveNumber" type="Label" parent="VBoxContainer/CenterContainer/VBoxContainer"]
+margin_top = 187.0
+margin_right = 472.0
+margin_bottom = 247.0
+custom_fonts/font = SubResource( 1 )
+text = "Made it to Wave"
+
+[node name="Label2" type="Label" parent="VBoxContainer/CenterContainer/VBoxContainer"]
+margin_top = 251.0
+margin_right = 472.0
+margin_bottom = 367.0
+text = "
+
+
+
+
+
+"
+
+[node name="MainMenu" type="Button" parent="VBoxContainer/CenterContainer/VBoxContainer"]
+margin_top = 371.0
+margin_right = 472.0
+margin_bottom = 456.0
+rect_min_size = Vector2( 360, 85 )
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="VBoxContainer/CenterContainer/VBoxContainer/MainMenu"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = ExtResource( 2 )
+custom_colors/font_color_shadow = Color( 0.188235, 0.254902, 0.564706, 1 )
+custom_constants/shadow_offset_x = 0
+custom_constants/shadow_offset_y = 6
+text = "Main Menu"
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Quit" type="Button" parent="VBoxContainer/CenterContainer/VBoxContainer"]
+margin_top = 460.0
+margin_right = 472.0
+margin_bottom = 545.0
+rect_min_size = Vector2( 360, 85 )
+flat = true
+
+[node name="Label" type="Label" parent="VBoxContainer/CenterContainer/VBoxContainer/Quit"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = ExtResource( 2 )
+custom_colors/font_color_shadow = Color( 0.188235, 0.254902, 0.564706, 1 )
+custom_constants/shadow_offset_x = 0
+custom_constants/shadow_offset_y = 6
+text = "Quit"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="visibility_changed" from="." to="." method="_on_DeathScreen_visibility_changed"]
+[connection signal="pressed" from="VBoxContainer/CenterContainer/VBoxContainer/MainMenu" to="." method="_on_MainMenu_pressed"]
+[connection signal="pressed" from="VBoxContainer/CenterContainer/VBoxContainer/Quit" to="." method="_on_Quit_pressed"]

@@ -1,0 +1,9 @@
+[gd_scene format=2]
+
+[node name="CameraRig" type="Position3D"]
+
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( -1, -8.77052e-08, 1.22913e-07, 0, 0.814014, 0.580845, -1.50996e-07, 0.580845, -0.814014, 0, 24.8269, -33.8158 )
+current = true
+fov = 40.0
+size = 25.0

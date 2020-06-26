@@ -1,0 +1,235 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://MainWorld/Rocks/BigWall.tscn" type="PackedScene" id=1]
+[ext_resource path="res://MainWorld/Rocks/MedWall1.tscn" type="PackedScene" id=2]
+[ext_resource path="res://MainWorld/Rocks/MedWall2.tscn" type="PackedScene" id=3]
+
+[node name="Walls" type="Spatial"]
+
+[node name="MedWall2" type="Spatial" parent="." instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.5994, 0, -50.2901 )
+
+[node name="BigWall" type="Spatial" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -51.255 )
+
+[node name="MedWall1" type="Spatial" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.91054, -0.0866203, -50.6155 )
+
+[node name="MedWall4" type="Spatial" parent="." instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -14.7613, 0, -50.2901 )
+
+[node name="BigWall2" type="Spatial" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -23.3607, 0, -51.255 )
+
+[node name="MedWall3" type="Spatial" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -32.2713, -0.0866203, -50.6155 )
+
+[node name="MedWall8" type="Spatial" parent="." instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -37.8306, 0, -50.2901 )
+
+[node name="BigWall4" type="Spatial" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -46.43, 0, -51.255 )
+
+[node name="MedWall7" type="Spatial" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -55.3405, -0.0866203, -50.6155 )
+
+[node name="MedWall6" type="Spatial" parent="." instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -61.1913, 0, -50.2901 )
+
+[node name="BigWall3" type="Spatial" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -69.7907, 0, -51.255 )
+
+[node name="MedWall5" type="Spatial" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -78.7012, -0.0866203, -50.6155 )
+
+[node name="MedWall10" type="Spatial" parent="." instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -84.6318, 0, -50.2901 )
+
+[node name="BigWall5" type="Spatial" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -93.2312, 0, -51.255 )
+
+[node name="MedWall16" type="Spatial" parent="." instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 95.8351, 0, -50.2901 )
+
+[node name="BigWall9" type="Spatial" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 87.2357, 0, -51.255 )
+
+[node name="MedWall15" type="Spatial" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 78.3252, -0.0866203, -50.6155 )
+
+[node name="MedWall14" type="Spatial" parent="." instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 72.7659, 0, -50.2901 )
+
+[node name="BigWall8" type="Spatial" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 64.1665, 0, -51.255 )
+
+[node name="MedWall13" type="Spatial" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 55.256, -0.0866203, -50.6155 )
+
+[node name="MedWall12" type="Spatial" parent="." instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 49.4052, 0, -50.2901 )
+
+[node name="BigWall7" type="Spatial" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 40.8058, 0, -51.255 )
+
+[node name="MedWall9" type="Spatial" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 31.8952, -0.0866203, -50.6155 )
+
+[node name="MedWall11" type="Spatial" parent="." instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 25.9647, 0, -50.2901 )
+
+[node name="BigWall6" type="Spatial" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 17.3653, 0, -51.255 )
+
+[node name="MedWall32" type="Spatial" parent="." instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.5994, 0, 50.4788 )
+
+[node name="BigWall18" type="Spatial" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 49.5139 )
+
+[node name="MedWall31" type="Spatial" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.91054, -0.0866203, 50.1534 )
+
+[node name="MedWall30" type="Spatial" parent="." instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -14.7613, 0, 50.4788 )
+
+[node name="BigWall17" type="Spatial" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -23.3607, 0, 49.5139 )
+
+[node name="MedWall29" type="Spatial" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -32.2713, -0.0866203, 50.1534 )
+
+[node name="MedWall28" type="Spatial" parent="." instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -37.8306, 0, 50.4788 )
+
+[node name="BigWall16" type="Spatial" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -46.43, 0, 49.5139 )
+
+[node name="MedWall27" type="Spatial" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -55.3405, -0.0866203, 50.1534 )
+
+[node name="MedWall26" type="Spatial" parent="." instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -61.1913, 0, 50.4788 )
+
+[node name="BigWall15" type="Spatial" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -69.7907, 0, 49.5139 )
+
+[node name="MedWall25" type="Spatial" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -78.7012, -0.0866203, 50.1534 )
+
+[node name="MedWall24" type="Spatial" parent="." instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -84.6318, 0, 50.4788 )
+
+[node name="BigWall14" type="Spatial" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -93.2312, 0, 49.5139 )
+
+[node name="MedWall23" type="Spatial" parent="." instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 95.8351, 0, 50.4788 )
+
+[node name="BigWall13" type="Spatial" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 87.2357, 0, 49.5139 )
+
+[node name="MedWall22" type="Spatial" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 78.3252, -0.0866203, 50.1534 )
+
+[node name="MedWall21" type="Spatial" parent="." instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 72.7659, 0, 50.4788 )
+
+[node name="BigWall12" type="Spatial" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 64.1665, 0, 49.5139 )
+
+[node name="MedWall20" type="Spatial" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 55.256, -0.0866203, 50.1534 )
+
+[node name="MedWall19" type="Spatial" parent="." instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 49.4052, 0, 50.4788 )
+
+[node name="BigWall11" type="Spatial" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 40.8058, 0, 49.5139 )
+
+[node name="MedWall18" type="Spatial" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 31.8952, -0.0866203, 50.1534 )
+
+[node name="MedWall17" type="Spatial" parent="." instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 25.9647, 0, 50.4788 )
+
+[node name="BigWall10" type="Spatial" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 17.3653, 0, 49.5139 )
+
+[node name="MedWall34" type="Spatial" parent="." instance=ExtResource( 3 )]
+transform = Transform( -1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, 100.154, 0, 29.6616 )
+
+[node name="BigWall19" type="Spatial" parent="." instance=ExtResource( 1 )]
+transform = Transform( -1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, 100.154, 0, 38.7646 )
+
+[node name="MedWall33" type="Spatial" parent="." instance=ExtResource( 2 )]
+transform = Transform( -1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, 100.154, 0, 47.1532 )
+
+[node name="MedWall36" type="Spatial" parent="." instance=ExtResource( 3 )]
+transform = Transform( -1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, 100.154, 0, 5.83748 )
+
+[node name="BigWall20" type="Spatial" parent="." instance=ExtResource( 1 )]
+transform = Transform( -1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, 100.154, 0, 14.9405 )
+
+[node name="MedWall35" type="Spatial" parent="." instance=ExtResource( 2 )]
+transform = Transform( -1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, 100.154, 0, 23.3291 )
+
+[node name="MedWall40" type="Spatial" parent="." instance=ExtResource( 3 )]
+transform = Transform( -1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, 100.154, 0, -17.4547 )
+
+[node name="BigWall22" type="Spatial" parent="." instance=ExtResource( 1 )]
+transform = Transform( -1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, 100.154, 0, -8.35173 )
+
+[node name="MedWall39" type="Spatial" parent="." instance=ExtResource( 2 )]
+transform = Transform( -1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, 100.154, 0, 0.0368996 )
+
+[node name="BigWall23" type="Spatial" parent="." instance=ExtResource( 1 )]
+transform = Transform( -1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, 100.154, 0, -45.8798 )
+
+[node name="MedWall38" type="Spatial" parent="." instance=ExtResource( 3 )]
+transform = Transform( -1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, 100.154, 0, -41.2788 )
+
+[node name="BigWall21" type="Spatial" parent="." instance=ExtResource( 1 )]
+transform = Transform( -1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, 100.154, 0, -32.1758 )
+
+[node name="MedWall37" type="Spatial" parent="." instance=ExtResource( 2 )]
+transform = Transform( -1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, 100.154, 0, -23.7872 )
+
+[node name="MedWall48" type="Spatial" parent="." instance=ExtResource( 3 )]
+transform = Transform( -1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, -99.1531, 0, 29.6616 )
+
+[node name="BigWall28" type="Spatial" parent="." instance=ExtResource( 1 )]
+transform = Transform( -1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, -99.1531, 0, 38.7646 )
+
+[node name="MedWall47" type="Spatial" parent="." instance=ExtResource( 2 )]
+transform = Transform( -1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, -99.1531, 0, 47.1532 )
+
+[node name="MedWall46" type="Spatial" parent="." instance=ExtResource( 3 )]
+transform = Transform( -1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, -99.1531, 0, 5.83748 )
+
+[node name="BigWall27" type="Spatial" parent="." instance=ExtResource( 1 )]
+transform = Transform( -1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, -99.1531, 0, 14.9405 )
+
+[node name="MedWall45" type="Spatial" parent="." instance=ExtResource( 2 )]
+transform = Transform( -1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, -99.1531, 0, 23.3291 )
+
+[node name="MedWall44" type="Spatial" parent="." instance=ExtResource( 3 )]
+transform = Transform( -1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, -99.1531, 0, -17.4547 )
+
+[node name="BigWall26" type="Spatial" parent="." instance=ExtResource( 1 )]
+transform = Transform( -1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, -99.1531, 0, -8.35173 )
+
+[node name="MedWall43" type="Spatial" parent="." instance=ExtResource( 2 )]
+transform = Transform( -1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, -99.1531, 0, 0.0368996 )
+
+[node name="BigWall25" type="Spatial" parent="." instance=ExtResource( 1 )]
+transform = Transform( -1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, -99.1531, 0, -45.8798 )
+
+[node name="MedWall42" type="Spatial" parent="." instance=ExtResource( 3 )]
+transform = Transform( -1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, -99.1531, 0, -41.2788 )
+
+[node name="BigWall24" type="Spatial" parent="." instance=ExtResource( 1 )]
+transform = Transform( -1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, -99.1531, 0, -32.1758 )
+
+[node name="MedWall41" type="Spatial" parent="." instance=ExtResource( 2 )]
+transform = Transform( -1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, -99.1531, 0, -23.7872 )
