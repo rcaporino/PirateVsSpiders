@@ -3,6 +3,7 @@
 
 ## Installation
 Currently this is for windows only.
+
 Simply download the zip from my itch.io page [here](https://oniro.itch.io/pirate-vs-spiders) and extract it anywhere you would like
 
 ## Credits
